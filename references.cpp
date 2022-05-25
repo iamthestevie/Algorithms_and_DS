@@ -19,7 +19,7 @@ namespace reference_variables
 namespace pointer_variables
 {
     int i = 0;
-    int* j = &i; // 'j' is a pointer variable pointed at the data in 'i'
+    int* j = &i; // 'j' is a pointer to an int variable pointed at the data in 'i'
 }
 
 int main()
